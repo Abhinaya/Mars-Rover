@@ -29,4 +29,13 @@ public class RoverPosition {
     public String getDirection() {
         return direction;
     }
+
+    public void move() {
+    }
+
+    public void turnRight() {
+    }
+
+    public void turnLeft() {
+    }
 }
