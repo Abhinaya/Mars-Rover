@@ -34,4 +34,12 @@ public class RoverPositionTest {
         assertThat(roverPosition.getX(),is(2));
         assertThat(roverPosition.getY(),is(2));
     }
+    @Test
+    public void shouldMoveWhenFacingSouth(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 S");
+        roverPosition.move();
+        assertThat(roverPosition.getDirection(),is('S'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(1));
+    }
 }

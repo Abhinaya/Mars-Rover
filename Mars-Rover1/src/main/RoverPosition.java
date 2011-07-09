@@ -38,25 +38,16 @@ public class RoverPosition {
             case 'E':
                 this.x+=1;
                 break;
+            case 'S':
+                this.y-=1;
+                break;
+
 
         }
     }
 
     public void turnRight() {
-        switch (direction){
-            case 'N':
-                direction='E';
-                break;
-            case 'E':
-                direction='S';
-                break;
-            case 's':
-                direction='W';
-                break;
-            case 'W':
-                direction='N';
-                break;
-        }
+
     }
 
     public void turnLeft() {
