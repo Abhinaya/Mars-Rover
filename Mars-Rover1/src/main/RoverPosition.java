@@ -4,9 +4,9 @@ public class RoverPosition {
 
     private int x;
     private int y;
-    private String direction;
+    private char direction;
 
-    private RoverPosition(){
+    RoverPosition(){
     }
 
     public static RoverPosition parse(String input) {
@@ -14,7 +14,7 @@ public class RoverPosition {
         RoverPosition roverPosition = new RoverPosition();
         roverPosition.x= Integer.parseInt(position[0]);
         roverPosition.y= Integer.parseInt(position[1]);
-        roverPosition.direction=position[2];
+        roverPosition.direction=position[2].charAt(0);
         return roverPosition;
     }
 
@@ -26,16 +26,40 @@ public class RoverPosition {
         return y;
     }
 
-    public String getDirection() {
+    public char getDirection() {
         return direction;
     }
 
     public void move() {
+        switch (direction){
+            case 'N':
+                this.y+=1;
+                break;
+            case 'E':
+                this.x+=1;
+                break;
+
+        }
     }
 
     public void turnRight() {
+        switch (direction){
+            case 'N':
+                direction='E';
+                break;
+            case 'E':
+                direction='S';
+                break;
+            case 's':
+                direction='W';
+                break;
+            case 'W':
+                direction='N';
+                break;
+        }
     }
 
     public void turnLeft() {
+
     }
 }
