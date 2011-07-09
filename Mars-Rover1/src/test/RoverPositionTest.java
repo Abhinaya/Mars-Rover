@@ -42,4 +42,12 @@ public class RoverPositionTest {
         assertThat(roverPosition.getX(),is(1));
         assertThat(roverPosition.getY(),is(1));
     }
+    @Test
+    public void shouldMoveWhenFacingWest(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 W");
+        roverPosition.move();
+        assertThat(roverPosition.getDirection(),is('W'));
+        assertThat(roverPosition.getX(),is(0));
+        assertThat(roverPosition.getY(),is(2));
+    }
 }

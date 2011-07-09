@@ -41,8 +41,9 @@ public class RoverPosition {
             case 'S':
                 this.y-=1;
                 break;
-
-
+            case  'W':
+                this.x-=1;
+                break;
         }
     }
 
