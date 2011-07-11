@@ -1,7 +1,6 @@
 package main;
 
 
-import javax.sound.sampled.DataLine;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,10 +27,9 @@ public class MarsRover {
         MarsRover marsRover = new MarsRover();
         List<String> input = marsRover.readFromFile("C:\\Users\\sabhinay\\Mars-Rover\\Mars-Rover1\\src\\main\\input.txt");
         String plateau=input.get(0);
-        Plateau[]
-    }
 
-
+        RoverExecutor.executeRovers(input);
+        }
 
 }
 //

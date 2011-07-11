@@ -114,4 +114,10 @@ public class RoverPositionTest {
         assertThat(roverPosition.getX(),is(1));
         assertThat(roverPosition.getY(),is(2));
     }
+
+    @Test
+    public void shouldConvertToString(){
+        RoverPosition position = RoverPosition.parse("3 4 S");
+        assertThat(position.toString(), is("3 4 S"));
+    }
 }

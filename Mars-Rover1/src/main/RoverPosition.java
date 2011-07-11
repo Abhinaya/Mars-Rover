@@ -26,6 +26,11 @@ public class RoverPosition {
         return y;
     }
 
+    @Override
+    public String toString() {
+        return x+" "+y+" "+direction;
+    }
+
     public char getDirection() {
         return direction;
     }
