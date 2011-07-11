@@ -50,4 +50,68 @@ public class RoverPositionTest {
         assertThat(roverPosition.getX(),is(0));
         assertThat(roverPosition.getY(),is(2));
     }
+    @Test
+    public void shouldTurnRightWhenFacingNorth(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 N");
+        roverPosition.turnRight();
+        assertThat(roverPosition.getDirection(),is('E'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
+     @Test
+    public void shouldTurnRightWhenFacingEast(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 E");
+        roverPosition.turnRight();
+        assertThat(roverPosition.getDirection(),is('S'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
+     @Test
+    public void shouldTurnRightWhenFacingSouth(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 S");
+        roverPosition.turnRight();
+        assertThat(roverPosition.getDirection(),is('W'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
+     @Test
+    public void shouldTurnRightWhenFacingWest(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 W");
+        roverPosition.turnRight();
+        assertThat(roverPosition.getDirection(),is('N'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
+     @Test
+    public void shouldTurnLeftWhenFacingNorth(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 N");
+        roverPosition.turnLeft();
+        assertThat(roverPosition.getDirection(),is('W'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
+    @Test
+    public void shouldTurnLeftWhenFacingEast(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 E");
+        roverPosition.turnLeft();
+        assertThat(roverPosition.getDirection(),is('N'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
+    @Test
+    public void shouldTurnLeftWhenFacingSouth(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 S");
+        roverPosition.turnLeft();
+        assertThat(roverPosition.getDirection(),is('E'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
+    @Test
+    public void shouldTurnLeftWhenFacingWest(){
+        RoverPosition roverPosition=RoverPosition.parse("1 2 W");
+        roverPosition.turnLeft();
+        assertThat(roverPosition.getDirection(),is('S'));
+        assertThat(roverPosition.getX(),is(1));
+        assertThat(roverPosition.getY(),is(2));
+    }
 }

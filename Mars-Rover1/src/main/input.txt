@@ -1,0 +1,5 @@
+5 5
+1 2 N
+LRLML
+1 2 E
+LRML
