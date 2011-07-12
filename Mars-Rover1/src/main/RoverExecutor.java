@@ -14,7 +14,7 @@ public class RoverExecutor {
             RoverPosition roverPosition = RoverPosition.parse(position);
             RoverCommand.execute(roverPosition, command);
             roverPositionList.add(roverPosition);
-
+            System.out.println(roverPosition.getX()+" "+roverPosition.getY()+" "+roverPosition.getDirection());
             i += 2;
         }
         return roverPositionList;
