@@ -17,6 +17,7 @@ public class RoverCommand {
             }
             else if(command=='L')
                rover.turnLeft();
+            else throw new IllegalArgumentException("Invalid Command");
         }
     }
 }

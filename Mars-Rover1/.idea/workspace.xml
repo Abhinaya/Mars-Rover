@@ -75,8 +75,10 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="-1.8518518">
-              <folding />
+            <state line="18" column="84" selection-start="627" selection-end="627" vertical-scroll-proportion="-3.7037036">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,10 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverExecutor.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RoverExecutor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/RoverExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="63" selection-start="159" selection-end="159" vertical-scroll-proportion="0.15110357">
+            <state line="11" column="19" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plateau.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Plateau.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="24" selection-start="339" selection-end="339" vertical-scroll-proportion="0.7029877">
               <folding />
             </state>
           </provider>
@@ -115,7 +126,7 @@
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+            <state line="6" column="1" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,7 +146,7 @@
       <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+            <state line="24" column="32" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +157,7 @@
       <file leaf-file-name="RoverCommand.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/RoverCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+            <state line="19" column="71" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,22 +188,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/Plateau.java" />
         <option value="$PROJECT_DIR$/src/main/RoverPosition.java" />
         <option value="$PROJECT_DIR$/src/test/RoverCommandTest.java" />
         <option value="$PROJECT_DIR$/src/main/MarsRover.java" />
         <option value="$PROJECT_DIR$/src/main/SouthDirection.java" />
         <option value="$PROJECT_DIR$/src/main/WestDirection.java" />
-        <option value="$PROJECT_DIR$/src/main/RoverCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/Rover.java" />
         <option value="$PROJECT_DIR$/src/main/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/NorthDirection.java" />
         <option value="$PROJECT_DIR$/src/main/EastDirection.java" />
         <option value="$PROJECT_DIR$/src/test/RoverTest.java" />
         <option value="$PROJECT_DIR$/src/test/MarsRoverTest.java" />
         <option value="$PROJECT_DIR$/src/test/RoverExecutorTest.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/main/RoverExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/RoverCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/Rover.java" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/main/Plateau.java" />
       </list>
     </option>
   </component>
@@ -202,6 +213,25 @@
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Finalization issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>NoExplicitFinalizeCalls</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -743,7 +773,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25334045" sideWeight="0.618" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -885,18 +915,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RoverExecutorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/RoverCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+        <state line="19" column="71" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -910,32 +931,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
+    <entry file="file://$PROJECT_DIR$/src/test/RoverExecutorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="-1.8518518">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MarsRover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/RoverCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/RoverExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+        <state line="11" column="19" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/RoverExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="63" selection-start="159" selection-end="159" vertical-scroll-proportion="0.15110357">
+        <state line="18" column="84" selection-start="627" selection-end="627" vertical-scroll-proportion="-3.7037036">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MarsRover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="32" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Plateau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="339" selection-end="339" vertical-scroll-proportion="0.7029877">
           <folding />
         </state>
       </provider>
