@@ -30,7 +30,7 @@ public class MarsRover {
     private static void setPlateauLimits(String plateau) {
         int xLimit=Integer.parseInt(String.valueOf(plateau.charAt(0)));
         int yLimit=Integer.parseInt(String.valueOf(plateau.charAt(2)));
-        Plateau marsPlateau=new Plateau(xLimit,yLimit);
+        Plateau.getInstance(xLimit,yLimit);
     }
 
 }

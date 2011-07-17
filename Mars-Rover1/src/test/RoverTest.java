@@ -1,16 +1,17 @@
 package test;
 
 
+import main.Plateau;
 import main.Rover;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class RoverTest {
-
+public class RoverTest{
+    Plateau plateau=Plateau.getInstance(5,5);
     @Test
-    public void shouldMoveWhenFacingNorth() {
+    public void shouldMoveWhenFacingNorth(){
         Rover rover = new Rover("1 2 N");
         rover.move();
         Rover dummyRover = new Rover("1 3 N");
@@ -107,7 +108,14 @@ public class RoverTest {
 
     @Test
     public void shouldConvertToString() {
-        Rover position = new Rover("3 4 S");
-        assertThat(position.toString(), is("3 4 S"));
+        Rover rover = new Rover("3 4 S");
+        assertThat(rover.toString(), is("3 4 S"));
     }
+
+//    @Test
+//    public void shouldThrowExceptionWhenROverMovesOutofBounds(){
+//        Rover rover=new Rover("5 5 N");
+//        rover.move();
+//        assertThat(Plateau.checkYLimit(6),is(false));
+//    }
 }

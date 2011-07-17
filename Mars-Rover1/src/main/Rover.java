@@ -11,7 +11,7 @@ public class Rover {
         x = Integer.parseInt(position[0]);
         y = Integer.parseInt(position[1]);
         direction = Direction.convertCharacterToDirection(position[2].charAt(0));
-        if (Plateau.checkXLimit(x) && Plateau.checkYLimit(y)) ;
+        if (Plateau.checkXLimit(x) && Plateau.checkYLimit(y));
         else throw new IndexOutOfBoundsException("Rover Out of Plateau Limits");
     }
 

@@ -18,6 +18,4 @@ public class MarsRoverTest {
         List testString = marsRover.readFromFile("input.txt");
         assertThat((String) testString.get(0),is("5 5"));
     }
-
-
 }
