@@ -112,10 +112,12 @@ public class RoverTest{
         assertThat(rover.toString(), is("3 4 S"));
     }
 
-//    @Test
-//    public void shouldThrowExceptionWhenROverMovesOutofBounds(){
-//        Rover rover=new Rover("5 5 N");
-//        rover.move();
-//        assertThat(Plateau.checkYLimit(6),is(false));
-//    }
+    @Test(expected= IndexOutOfBoundsException.class) public void shouldThrowExceptionWhenRoverIsPositionedOutsidePlateau() {
+         new Rover("6 6 N");
+     }
+
+    @Test(expected= IndexOutOfBoundsException.class) public void shouldThrowExceptionWhenRoverMovesOutofPlateau() {
+         Rover rover=new Rover("5 5 N");
+         rover.move();
+     }
 }

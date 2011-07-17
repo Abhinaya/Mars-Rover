@@ -35,4 +35,8 @@ public class roverExecutionSteps {
         Rover rover =new Rover(finalPosition);
         assertEquals(rover.toString(),finalPosition);
       }
+    @Then("^Exception is thrown")
+    public void shouldThrowException(){
+
+    }
 }
