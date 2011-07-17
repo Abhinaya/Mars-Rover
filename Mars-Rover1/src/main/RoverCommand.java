@@ -4,22 +4,19 @@ package main;
 public class RoverCommand {
 
 
-    public static void execute(RoverPosition roverPosition, String commands) {
+    public static void execute(Rover rover, String commands) {
         for(char command:commands.toCharArray()){
             if(command=='M')
             {
-               if(!roverPosition.move())
-               {
-                   System.out.println("Rover tries to move out of plateau");
-                   continue;
-               }
+               rover.move();
+
             }
             else if(command=='R')
             {
-               roverPosition.turnRight();
+               rover.turnRight();
             }
             else if(command=='L')
-               roverPosition.turnLeft();
+               rover.turnLeft();
         }
     }
 }

@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RoverExecutor {
-    public static List<RoverPosition> executeRovers(List<String> input) {
+    public static List<Rover> executeRovers(List<String> input){
         int i = 1;
-        List<RoverPosition> roverPositionList = new ArrayList<RoverPosition>();
+        List<Rover> roverList = new ArrayList<Rover>();
         while (i < input.size()) {
             String position = input.get(i);
             String command = input.get(i + 1);
-            RoverPosition roverPosition = new RoverPosition(position);
-            RoverCommand.execute(roverPosition, command);
-            roverPositionList.add(roverPosition);
-            System.out.println(roverPosition.getX()+" "+roverPosition.getY()+" "+roverPosition.getDirection());
+            Rover rover = new Rover(position);
+            RoverCommand.execute(rover, command);
+            roverList.add(rover);
+            System.out.println(rover.toString());
             i += 2;
         }
-        return roverPositionList;
+        return roverList;
     }
 }

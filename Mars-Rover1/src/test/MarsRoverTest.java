@@ -3,9 +3,7 @@ package test;
 
 import main.MarsRover;
 import org.junit.Test;
-import org.mockito.Mock;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
