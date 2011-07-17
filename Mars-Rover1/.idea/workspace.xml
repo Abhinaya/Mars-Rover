@@ -32,6 +32,34 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/RoverExecutorTest.java" line="31" class="test.RoverExecutorTest" package="test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/RoverExecutorTest.java" line="30" class="test.RoverExecutorTest" package="test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,25 +103,69 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="16" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plateau.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Plateau.java">
+      <file leaf-file-name="RoverExecutor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/RoverExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="4" selection-start="2950" selection-end="2950" vertical-scroll-proportion="0.2994746">
+            <state line="10" column="13" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlateauTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/PlateauTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="21" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/MarsRoverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.36332768">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoverCommandTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/RoverCommandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoverExecutorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/RoverExecutorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="33" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +192,8 @@
         <option value="$PROJECT_DIR$/src/main/RoverExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/RoverCommand.java" />
         <option value="$PROJECT_DIR$/src/main/SouthDirection.java" />
-        <option value="$PROJECT_DIR$/src/test/PlateauTest.java" />
         <option value="$PROJECT_DIR$/src/test/MarsRoverTest.java" />
         <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/src/test/RoverExecutorTest.java" />
         <option value="$PROJECT_DIR$/src/main/Plateau.java" />
         <option value="$PROJECT_DIR$/src/main/Rover.java" />
         <option value="$PROJECT_DIR$/src/main/MarsRover.java" />
@@ -131,6 +201,8 @@
         <option value="$PROJECT_DIR$/features/rover_execution.feature" />
         <option value="$PROJECT_DIR$/src/test/cucumber/roverExecutionSteps.java" />
         <option value="$PROJECT_DIR$/src/test/RoverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/RoverExecutorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/PlateauTest.java" />
       </list>
     </option>
   </component>
@@ -309,8 +381,8 @@
       <recent name="main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest.shouldThrowExceptionWhenRoverMovesOutofPlateau">
-    <configuration default="false" name="RoverTest.shouldMoveWhenFacingWest" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.MarsRoverTest">
+    <configuration default="false" name="RoverExecutorTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -321,93 +393,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.RoverTest" />
-      <option name="METHOD_NAME" value="shouldMoveWhenFacingWest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverTest.shouldMoveWhenFacingNorth" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Mars-Rover1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.RoverTest" />
-      <option name="METHOD_NAME" value="shouldMoveWhenFacingNorth" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverTest.empty" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Mars-Rover1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.RoverTest" />
-      <option name="METHOD_NAME" value="empty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverTest.shouldThrowExceptionWhenRoverMovesOutofPlateau" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Mars-Rover1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.RoverTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionWhenRoverMovesOutofPlateau" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="test.RoverExecutorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -419,7 +407,7 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49656" />
+        <option name="DEBUG_PORT" value="49730" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -428,7 +416,63 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoverTest.shouldThrowExceptionWhenRoverIsPositionedOutsidePlateau" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RoverCommandTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Mars-Rover1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RoverCommandTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlateauTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Mars-Rover1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PlateauTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -440,8 +484,36 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.RoverTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionWhenRoverIsPositionedOutsidePlateau" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Mars-Rover1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MarsRoverTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -569,11 +641,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MarsRover" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveWhenFacingWest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldMoveWhenFacingNorth" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest.empty" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldThrowExceptionWhenRoverMovesOutofPlateau" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldThrowExceptionWhenRoverIsPositionedOutsidePlateau" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RoverExecutorTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverCommandTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PlateauTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MarsRoverTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -616,7 +688,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959914" sideWeight="0.67" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -626,8 +698,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33083913" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17637627" sideWeight="0.6" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17637627" sideWeight="0.618" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -716,38 +788,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/MarsRover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/rover_execution.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/cucumber/roverExecutionSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SouthDirection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
@@ -755,23 +795,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/RoverExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Plateau.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.9b3.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="-11.0">
           <folding />
         </state>
       </provider>
@@ -804,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.9b3.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="16" selection-start="2871" selection-end="2871" vertical-scroll-proportion="-6.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.9b3.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="35" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.39962476">
@@ -820,14 +839,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/RoverExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.9b3.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="0.503663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.9b3.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="25" selection-start="2593" selection-end="2593" vertical-scroll-proportion="0.34896812">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="4" selection-start="2950" selection-end="2950" vertical-scroll-proportion="0.2994746">
+        <state line="10" column="13" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RoverExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="33" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RoverCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/PlateauTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.36332768">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

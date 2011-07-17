@@ -7,6 +7,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class PlateauTest {
+    Plateau plateau=Plateau.getInstance(5,5);
     @Test
     public void shouldCheckYLimit(){
         assertThat(Plateau.checkYLimit(6), is(false));
