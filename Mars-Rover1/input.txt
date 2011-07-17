@@ -1,0 +1,8 @@
+5 5
+1 3 N
+MRL
+5 2 E
+LRML
+1 5 W
+LRM
+

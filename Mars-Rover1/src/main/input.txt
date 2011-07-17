@@ -1,6 +1,0 @@
-1 2 N
-LRLML
-1 2 E
-LRML
-1 3 W
-LR

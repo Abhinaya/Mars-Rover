@@ -17,7 +17,9 @@ public class MarsRoverTest {
     @Test
     public void shouldReadInputFromFile() throws IOException {
         MarsRover marsRover=new MarsRover();
-        List testString = marsRover.readFromFile("C:\\Users\\sabhinay\\Mars-Rover\\Mars-Rover1\\src\\main\\input.txt");
+        List testString = marsRover.readFromFile("input.txt");
         assertThat((String) testString.get(0),is("5 5"));
     }
+
+
 }

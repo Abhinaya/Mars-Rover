@@ -24,9 +24,16 @@ public class MarsRover {
 
     public static void main(String[] args) throws IOException {
         MarsRover marsRover = new MarsRover();
-        List<String> input = marsRover.readFromFile("C:\\Users\\sabhinay\\Mars-Rover\\Mars-Rover1\\src\\main\\input.txt");
-        //String plateau=input.get(0);
+        List<String> input = marsRover.readFromFile("input.txt");
+        String plateau=input.get(0);
+        setPlateauLimits(plateau);
         RoverExecutor.executeRovers(input);
         }
+
+    private static void setPlateauLimits(String plateau) {
+        int xLimit=Integer.parseInt(String.valueOf(plateau.charAt(0)));
+        int yLimit=Integer.parseInt(String.valueOf(plateau.charAt(2)));
+        Plateau marsPlateau=new Plateau(xLimit,yLimit);
+    }
 
 }
