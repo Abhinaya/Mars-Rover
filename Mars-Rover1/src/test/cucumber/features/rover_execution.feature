@@ -8,8 +8,8 @@
 
         Scenario:When the rover moves out of Plateau
           Given The Initial position is "5 5 N"
-          When The Command "MLR" is executed
-          Then exception is thrown
+          When The Command "M" is executed
+          Then exception is thrown for position "5 6 N"
 
 
 
